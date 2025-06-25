@@ -18,28 +18,28 @@ public class Main {
 
 			Animal animal = new Animal(name, height, speed);
 			animal.showInfo();
-			scanner.close();
 
 			switch (name) { //名前が入力されたら学名を表示
 			case "ライオン":
-				System.out.println("学名：パンテラ　レオ");
+				System.out.println("学名：パンテラ レオ");
 				break;
 			case "ゾウ":
 				System.out.println("学名：ロキソドンタ・サイクロティス");
 				break;
 			case "パンダ":
-				System.out.println("アイルロポダ・メラノレウカ");
+				System.out.println("学名：アイルロポダ・メラノレウカ");
 				break;
 			case "チンパンジー":
-				System.out.println("パン・トゥログロディテス");
+				System.out.println("学名：パン・トゥログロディテス");
 				break;
 			case "シマウマ":
-				System.out.println("チャップマンシマウマ");
+				System.out.println("学名：チャップマンシマウマ");
 				break;
 			case "インコ":
-				System.out.println("不明");
+				System.out.println("学名：不明");
 				break;
 			}
+			scanner.close();
 		}
 	}
 }
